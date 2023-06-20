@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>SINAG</title>
+        <link rel="stylesheet" href="stylesinag.css">
+    </head>
+    <body>
+        <div class="banner">
+            <div class="navbar">
+
+                <div class="loader"></div>
+
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li>
+                            <a href="#">STUDENTS ▾</a>
+                            <ul class="dropdown">
+                    <li><a href="listofstudentssinagboys.html">BOYS</a></li>
+                    <li><a href="listofstudentssinaggirls.html">GIRLS</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="mam sheila.html">ADVISER</a></li>
+                        <li><a href="sinagschedule.html">SCHEDULE</a></li>
+                    </ul>
+            </div>
+            </div>
+            <div class="content">
+                <h1>SINAG DATABASE</h1>
+                <p>Madapdap Resettlement High School</p>
+            </div>
+        </div>
+
+        <script>
+            window.addEventListener("load", () => {
+        const loader = document.querySelector(".loader");
+      
+        loader.classList.add("loader--hidden");
+      
+        loader.addEventListener("transitionend", () => {
+          document.body.removeChild(loader);
+        });
+      });
+        </script>
+
+
+    </body>
+</html>
