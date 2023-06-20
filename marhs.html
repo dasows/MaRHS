@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MaRHS</title>
+    <link rel="stylesheet" href="marhsstyle.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+</head>
+    <body>
+        <div class="banner">
+            <div class="navbar">
+
+               
+    <div class="loader"></div>
+
+<img src="logo.png" width="110" height="110">
+<nav>
+                    <ul>
+                        
+                        <li>
+                            <a href="#">GRADE LVL ▾</a>
+                            <ul class="dropdown">
+                    <li><a href="index.html">GR-10</a></li>
+                    <li><a href="#">GR-9</a></li>
+                    <li><a href="#">GR-8</a></li>
+                    <li><a href="#">GR-7</a></li>                    
+                    </ul>
+                        </li>
+                        <li>
+                            <li><a href="hlogin.html">Log Out</a></li>
+            </div>
+            <div class="content">
+                <h1>MaRHS</h1>        
+		<p>School Year 2022-2023</p>
+                <div>
+                    <button type="button" onclick="location.href='about.html'"><span></span>About us</button>
+              </div>
+            </div>
+        </div>
+    </nav>
+    <script>
+        window.addEventListener("load", () => {
+    const loader = document.querySelector(".loader");
+  
+    loader.classList.add("loader--hidden");
+  
+    loader.addEventListener("transitionend", () => {
+      document.body.removeChild(loader);
+    });
+  });
+    </script>
+    </body>
+</html> 

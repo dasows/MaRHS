@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<!-- Coding By CodingNepal - codingnepalweb.com -->
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+ <title>About Us </title>
+  <!---Custom Css File!--->
+  <link rel="stylesheet" href="aboutus.css">
+</head>
+<body>
+
+  <section class="about-us">
+    <div class="about">
+
+
+     <img src="marhs(5).jpg" class="pic">
+      <div class="text">
+        <h2>About Us</h2>
+        <h5>School ID:<span>300889</span></h5>
+          <p>Address : Sn. Fdo. Ave., Madapdap Resettlement<br>
+            Municipality : Magalang<br>
+             Region : Region III<br>
+              Province : Pampanga<br>
+               Division : Mabalacat City<br>
+                Legistative District : 1st District<br>
+                 Curricular Class : Junior High School with Senior High School </p>
+        <div class="data">
+        <a href="marhs.html" class="hire">Back</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div class="loader"></div>
+  <script>
+    window.addEventListener("load", () => {
+const loader = document.querySelector(".loader");
+
+loader.classList.add("loader--hidden");
+
+loader.addEventListener("transitionend", () => {
+  document.body.removeChild(loader);
+});
+});
+</script>
+</body>
+</html>
