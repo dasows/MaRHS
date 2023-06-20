@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>SAGISAG</title>
+        <link rel="stylesheet" href="stylesagisag.css">
+    </head>
+    <body>
+        <div class="banner">
+            <div class="navbar">
+              
+                <div class="loader"></div>
+
+                    <ul>
+                        <li><a href="index.html" accesskey="h" target="">HOME</a></li>
+                        <li>
+                            <a href="#">STUDENTS ▾</a>
+                            <ul class="dropdown">
+                    <li><a href="listofstudentssagisagboys.html">BOYS</a></li>
+                    <li><a href="listofstudentssagisaggirls.html">GIRLS</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="sir bradley.html">ADVISER</a></li>
+                        <li><a href="sagisagschedule.html">SCHEDULE</a></li>
+                    </ul>
+            </div>
+            </div>
+            <div class="content">
+                <h1>SAGISAG DATABASE</h1>
+                <p>Madapdap Resettlement High School</p>
+            </div>
+        </div>
+
+        <script>
+            window.addEventListener("load", () => {
+        const loader = document.querySelector(".loader");
+      
+        loader.classList.add("loader--hidden");
+      
+        loader.addEventListener("transitionend", () => {
+          document.body.removeChild(loader);
+        });
+      });
+        </script>
+    </body>
+</html>

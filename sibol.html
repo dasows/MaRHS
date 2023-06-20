@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>SIBOL</title>
+        <link rel="stylesheet" href="stylesibol.css">
+    </head>
+    <body>
+        <div class="banner">
+            <div class="navbar">
+              
+                <div class="loader"></div>
+
+                    <ul>
+                        <li><a href="index.html" accesskey="h" target="">HOME</a></li>
+                        <li>
+                            <a href="#">STUDENTS ▾</a>
+                            <ul class="dropdown">
+                    <li><a href="listofstudentssibolboys.html">BOYS</a></li>
+                    <li><a href="listofstudentssibolgirls.html">GIRLS</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="mam remeola.html">ADVISER</a></li>
+                        <li><a href="sibolschedule.html">SCHEDULE</a></li>
+                    </ul>
+            </div>
+            </div>
+            <div class="content">
+                <h1>SIBOL DATABASE</h1>
+                <p>Madapdap Resettlement High School</p>
+            </div>
+        </div>
+
+        <script>
+            window.addEventListener("load", () => {
+        const loader = document.querySelector(".loader");
+      
+        loader.classList.add("loader--hidden");
+      
+        loader.addEventListener("transitionend", () => {
+          document.body.removeChild(loader);
+        });
+      });
+        </script>
+    </body>
+</html>
